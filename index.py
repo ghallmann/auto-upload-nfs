@@ -10,9 +10,8 @@ file_name = f"Notas de AT do mes {curr_month}"
 file_name_txt = file_name + '.txt'
 file_name_csv = file_name + '.csv'
 
-source_path = 'F:\XML' + file_name_txt
-
-output_path = 'F:\XML' + file_name_csv
+source_path = './' + file_name_txt
+output_path = './' + file_name_csv
 
 # pasta de notas do portal no server
 remote_path = f"/var/www/portal.madesa.com/storage/app/nfs/nfs_{str(curr_month).zfill(2)}_{curr_year}.csv"
