@@ -1,0 +1,1 @@
+Small app to automatize NFS convertion to CSV and then upload to Madesa's Portal through FTP
